@@ -253,6 +253,4 @@ or use the `token` cookie set by registration and login. Tokens expire after thr
 - Configure secure cookie options appropriate to the deployment (including `httpOnly`, `secure`, and `sameSite`), add rate limiting and centralized error handling, and avoid logging passwords or other sensitive data.
 - Email delivery errors are logged by the email service; email failures should be monitored separately from transaction state.
 
-## License
 
-No license is specified in the provided project files. Add a `LICENSE` file if you intend to distribute the project.
